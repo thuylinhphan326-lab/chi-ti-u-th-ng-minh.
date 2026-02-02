@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', serif;
+    background: #f3e9d7; /* giấy vintage */
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+.title {
+    text-align: center;
+    font-size: 42px;
+    margin-top: 20px;
+    color: #5a3e2b;
+}
+
+.subtitle {
+    text-align: center;
+    color: #6b4a31;
+    margin-top: -10px;
+    margin-bottom: 30px;
+}
+
+.input-area {
+    background: #f9f3e7;
+    padding: 20px;
+    border-radius: 12px;
+    border: 2px solid #b3936a;
+    box-shadow: 0 0 10px rgba(90, 60, 40, 0.2);
+    width: 50%;
+    margin: auto;
+}
+
+label {
+    font-weight: bold;
+    color: #4a3525;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0 15px 0;
+    border-radius: 6px;
+    border: 1px solid #c7b299;
+    font-size: 17px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background: #b86f3c;
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #8f532e;
+}
+
+.card {
+    background: #fbf6ec;
+    border: 2px solid #c9a679;
+    border-radius: 15px;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0 0 6px rgba(50, 30, 20, 0.2);
+}
+
+.card h2 {
+    color: #5d3a1f;
+    margin-bottom: 10px;
+}
+
+.card ul {
+    margin-top: 10px;
+}
+
+.card li {
+    font-size: 18px;
+    margin-bottom: 6px;
+}
